@@ -3,12 +3,13 @@
     height: 60%;
     width: 97%;
     align-self: center;
-    line-height: 60%;
 }
 
-.nested-cont>[class^="col-"] {
+.debug .nested-cont>[class^="col-"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: springgreen;
     height: 100%;
-    line-height: 100%;
     border: 1px solid dodgerblue;
 }
