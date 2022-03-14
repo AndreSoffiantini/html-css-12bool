@@ -23,6 +23,10 @@
     display: flex;
 }
 
+.just-cent {
+    justify-content: center;
+}
+
 
 /* Text */
 
